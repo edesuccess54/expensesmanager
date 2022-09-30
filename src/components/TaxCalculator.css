@@ -1,0 +1,52 @@
+.taxcalculator {
+    margin-top: 20px;
+    color: #000000;
+}
+
+.form-wrapper form label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Inter';
+}
+
+.form-wrapper form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    background: #F5F5F5;
+    font-size: 18px;
+}
+
+.content-wrapper {
+    margin-top: 25px;
+    background: #F5F5F5;
+    border-radius: 5px;
+    height: auto;
+    padding: 20px 15px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.netPay {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-wrapper ul li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.content-wrapper .bottom-link {
+    display: flex;
+    margin-top: 10px;
+}
+
+.content-wrapper .bottom-link a {
+    margin-left: auto;
+    color: #006FFD;
+}

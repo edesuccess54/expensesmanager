@@ -1,0 +1,16 @@
+.keyValue-form {
+    margin-top: 10px;
+}
+
+.keyValue-container  {
+    display: flex;
+}
+
+.keyValue-form input {
+    background: #fff;
+    width: 100px;
+}
+
+.keyValue-form input {
+    background-color: red;
+}
