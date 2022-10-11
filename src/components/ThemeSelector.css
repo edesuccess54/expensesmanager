@@ -1,0 +1,26 @@
+.themeselector {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.colorTheme {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.mode img{
+    cursor: pointer;
+    filter: invert(10%);
+}
+
+.mode.dark img{
+    cursor: pointer;
+    filter: invert(100%);
+}
+

@@ -3,15 +3,20 @@ import Header from "./components/Header";
 import Navbar from './components/Navbar';
 import TaxCalculator from './components/TaxCalculator';
 import BillManager from "./components/BillManager";
+import ThemeSelector from "./components/ThemeSelector";
+import { useThemeContext } from "./hooks/useThemeContext";
 
 // style
 import "./App.css"
 import Footer from "./components/Footer";
 
+
 function App() {
+  const { mode } = useThemeContext()
   return (
-    <div className="App">
+    <div className={`App ${mode}`}>
        <Header />
+       <ThemeSelector />
       <div className="app-wrapper">
         <BrowserRouter>
           <Navbar />

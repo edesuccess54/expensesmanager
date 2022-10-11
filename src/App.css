@@ -2,8 +2,11 @@
     margin: auto;
 }
 
-
 .app-wrapper {
     max-width: 500px;
     margin: auto;
+}
+
+ .App.dark {
+    background: #555;
 }
